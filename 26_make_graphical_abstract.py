@@ -68,5 +68,5 @@ mn = min(t.get_fontsize() for t in fig.findobj(Text) if t.get_text().strip())
 assert mn >= 8, mn
 print("graphical abstract min font", mn)
 plt.savefig(FIG_DIR / "graphical_abstract.pdf")
-plt.savefig(FIG_DIR / "graphical_abstract.png", dpi=220)
+plt.savefig(FIG_DIR / "graphical_abstract.png", dpi=400)
 print("saved graphical abstract")

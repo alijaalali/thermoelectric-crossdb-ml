@@ -32,8 +32,8 @@ Install the dependencies with `pip install -r requirements.txt` (Python 3.12).
 18. `18_figure_predictions.py`: single-fit predictions used for parity and ROC plots
 19. `19_make_figures.py`: main figures
 20. `20_family_holdout_check.py`: leave-one-element-family-out classifier check
-21. `20_raw_distributions.py`: raw-data distribution figure
-22. `21_extend_target_tables.py`: adds power factor, thermal conductivity and ZT to the target tables
+21. `21_extend_target_tables.py`: adds power factor, thermal conductivity and ZT to the target tables (creates the `*_ext` files read by later steps)
+22. `20_raw_distributions.py`: raw-data distribution figure (needs the files from step 21, so it is run after it despite its file number)
 23. `22_extended_property_prediction.py`: benchmark for the added properties
 24. `23_extended_ci_leakage_shift.py`: confidence intervals, leakage and shift checks for the added properties
 25. `24_regression_shap.py`: SHAP attribution for the Seebeck, log10 conductivity and power factor models
