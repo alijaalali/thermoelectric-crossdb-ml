@@ -1,0 +1,16 @@
+{
+  "jarvis_target_rows": 46436,
+  "jarvis_unique_formulas": 18220,
+  "estm_target_rows": 880,
+  "estm_unique_formulas": 880,
+  "estm_T_distance_from_300K_median": 23.0,
+  "estm_T_distance_from_300K_max": 470.0,
+  "estm_doping_type_counts": {
+    "p": 597,
+    "n": 283
+  },
+  "jarvis_doping_type_counts": {
+    "n": 23218,
+    "p": 23218
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "La-Mn-O manganite (known polaron-hopping)": {
+    "rows": 0,
+    "unique_formulas": 0
+  },
+  "La-Co-O cobaltite (known polaron-hopping)": {
+    "rows": 11,
+    "unique_formulas": 11
+  },
+  "Ca-Co-O cobaltite (known polaron-hopping)": {
+    "rows": 28,
+    "unique_formulas": 5
+  },
+  "Na-Co-O cobaltite (known polaron-hopping)": {
+    "rows": 0,
+    "unique_formulas": 0
+  },
+  "Fe-O (magnetite family, known polaron-hopping)": {
+    "rows": 7,
+    "unique_formulas": 7
+  },
+  "Ti-O (titanate, polaron-relevant)": {
+    "rows": 50,
+    "unique_formulas": 15
+  },
+  "Sr-Ti-O (polaron-relevant)": {
+    "rows": 0,
+    "unique_formulas": 0
+  },
+  "Bi-Te (known band transport)": {
+    "rows": 193,
+    "unique_formulas": 36
+  },
+  "Pb-Te (known band transport)": {
+    "rows": 314,
+    "unique_formulas": 52
+  },
+  "Si-Ge (known band transport)": {
+    "rows": 84,
+    "unique_formulas": 14
+  },
+  "Co-Sb skutterudite (known band transport)": {
+    "rows": 218,
+    "unique_formulas": 34
+  }
+}

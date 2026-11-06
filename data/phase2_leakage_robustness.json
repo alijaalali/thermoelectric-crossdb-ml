@@ -1,0 +1,43 @@
+{
+  "n_exact_overlap_excluded": 33,
+  "JARVIStoESTM_WITH_overlap__Seebeck_uVK": {
+    "r2": 0.45274183558657133,
+    "mae": 107.39834361495646,
+    "n_test": 880
+  },
+  "JARVIStoESTM_NO_overlap__Seebeck_uVK": {
+    "r2": 0.44875350001142655,
+    "mae": 106.59866472178932,
+    "n_test": 847
+  },
+  "ESTMtoJARVIS_WITH_overlap__Seebeck_uVK": {
+    "r2": -0.13303958644602365,
+    "mae": 176.71245279514685,
+    "n_test": 46436
+  },
+  "ESTMtoJARVIS_NO_overlap__Seebeck_uVK": {
+    "r2": 0.015952529664627235,
+    "mae": 171.71441940820986,
+    "n_test": 46230
+  },
+  "JARVIStoESTM_WITH_overlap__log10_cond": {
+    "r2": -0.526556331746225,
+    "mae": 1.0628745266280644,
+    "n_test": 880
+  },
+  "JARVIStoESTM_NO_overlap__log10_cond": {
+    "r2": -0.6084786424239335,
+    "mae": 1.0704471123136434,
+    "n_test": 847
+  },
+  "ESTMtoJARVIS_WITH_overlap__log10_cond": {
+    "r2": -3.0596328449525076,
+    "mae": 2.065321957429889,
+    "n_test": 46436
+  },
+  "ESTMtoJARVIS_NO_overlap__log10_cond": {
+    "r2": -3.077337590583891,
+    "mae": 2.0742091099485065,
+    "n_test": 46230
+  }
+}

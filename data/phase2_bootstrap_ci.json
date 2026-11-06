@@ -1,0 +1,32 @@
+{
+  "JARVIStoESTM__Seebeck_uVK": {
+    "point_r2": 0.4535719068731253,
+    "boot_ci_lower_2.5": 0.3690791069129701,
+    "boot_ci_upper_97.5": 0.5272060957819037,
+    "n_boot_valid": 500
+  },
+  "ESTMtoJARVIS__Seebeck_uVK": {
+    "point_r2": -0.17816493283193324,
+    "boot_ci_lower_2.5": -0.272659566385449,
+    "boot_ci_upper_97.5": -0.09299224908414562,
+    "n_boot_valid": 500
+  },
+  "JARVIStoESTM__log10_cond": {
+    "point_r2": -0.5232921428330932,
+    "boot_ci_lower_2.5": -0.7899041615271372,
+    "boot_ci_upper_97.5": -0.33694552803865013,
+    "n_boot_valid": 500
+  },
+  "ESTMtoJARVIS__log10_cond": {
+    "point_r2": -3.1092272011984976,
+    "boot_ci_lower_2.5": -3.307942378920505,
+    "boot_ci_upper_97.5": -2.924727850871827,
+    "n_boot_valid": 500
+  },
+  "mechanism_classification_AUC_grouped_oof": {
+    "point_auc": 0.8296943231441047,
+    "boot_ci_lower_2.5": 0.7588963896086333,
+    "boot_ci_upper_97.5": 0.8806567769394992,
+    "n_boot_valid": 500
+  }
+}

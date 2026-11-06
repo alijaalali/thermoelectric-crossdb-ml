@@ -1,0 +1,11 @@
+{
+  "estm_unique_formulas": 880,
+  "estm_featurized": 880,
+  "estm_failed": [],
+  "jarvis_unique_formulas": 18220,
+  "jarvis_comp_featurized": 18220,
+  "jarvis_comp_failed": [],
+  "jarvis_structure_rows": 23218,
+  "jarvis_structure_build_failures": 0,
+  "magpie_n_features": 132
+}

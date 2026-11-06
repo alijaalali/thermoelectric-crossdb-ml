@@ -1,0 +1,18 @@
+{
+  "method": "Spearman(sigma,T) sign/significance + Arrhenius Ea plausibility range; heuristic label derived from each formula's own multi-T data, not a confirmed microscopic mechanism",
+  "default_thresholds": {
+    "min_points": 4,
+    "rho_thresh": 0.6,
+    "p_thresh": 0.05,
+    "ea_min_eV": 0.0,
+    "ea_max_eV": 2.0
+  },
+  "n_total_formulas": 880,
+  "label_counts": {
+    "band_like": 458,
+    "ambiguous_no_significant_trend": 186,
+    "hopping_like": 150,
+    "excluded_insufficient_data": 83,
+    "ambiguous_mixed_signal": 3
+  }
+}

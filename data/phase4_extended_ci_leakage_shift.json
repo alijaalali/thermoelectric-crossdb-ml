@@ -1,0 +1,41 @@
+{
+  "powerfact_JARVIStoESTM": {
+    "point_r2": -0.6857417967223618,
+    "ci_lower": -1.2826650775629316,
+    "ci_upper": -0.3452233053712632,
+    "n_boot_valid": 500
+  },
+  "powerfact_ESTMtoJARVIS": {
+    "point_r2": -1.6153878163183744,
+    "ci_lower": -1.7054623604857486,
+    "ci_upper": -1.5168581349008805,
+    "n_boot_valid": 500
+  },
+  "ESTM_log10_kappa_total_internal": {
+    "point_r2": 0.5660963844125406,
+    "ci_lower": 0.38139351475268884,
+    "ci_upper": 0.7115916632318451,
+    "n_boot_valid": 500
+  },
+  "ESTM_ZT_internal": {
+    "point_r2": -0.009080013485914584,
+    "ci_lower": -0.7906091830212718,
+    "ci_upper": 0.4552685051326006,
+    "n_boot_valid": 500
+  },
+  "leakage_robustness_powerfact": {
+    "n_overlap_excluded": 33,
+    "JARVIStoESTM_with_overlap": -0.6857417967223618,
+    "JARVIStoESTM_no_overlap": -0.4903094165163788,
+    "ESTMtoJARVIS_with_overlap": -1.6153878163183744,
+    "ESTMtoJARVIS_no_overlap": -1.2420152069850872
+  },
+  "shift_diagnosis_powerfact": {
+    "jarvis_median": 577.145,
+    "jarvis_mean": 869.830764349499,
+    "estm_median": 424.48300672954997,
+    "estm_mean": 785.2879152467622,
+    "ks_statistic": 0.09301492180831483,
+    "ks_pvalue": 5.89314239881693e-07
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "method": "leave-one-chemical-family-out: remove all formulas containing element E from training, train RandomForestClassifier (same hyperparameters as main benchmark, scripts/12) on the remainder, test only on held-out E-containing formulas",
+  "candidate_elements": [
+    "Co",
+    "Ca",
+    "O",
+    "Ni",
+    "Mg"
+  ],
+  "per_element": {
+    "Co": {
+      "skipped": false,
+      "n_train": 555,
+      "n_holdout": 53,
+      "n_holdout_hopping_like": 20,
+      "n_holdout_band_like": 33,
+      "accuracy": 0.5849056603773585,
+      "f1": 0.0,
+      "auc": 0.7848484848484848
+    },
+    "Ca": {
+      "skipped": false,
+      "n_train": 568,
+      "n_holdout": 40,
+      "n_holdout_hopping_like": 19,
+      "n_holdout_band_like": 21,
+      "accuracy": 0.65,
+      "f1": 0.5882352941176471,
+      "auc": 0.763157894736842
+    },
+    "O": {
+      "skipped": false,
+      "n_train": 552,
+      "n_holdout": 56,
+      "n_holdout_hopping_like": 27,
+      "n_holdout_band_like": 29,
+      "accuracy": 0.5178571428571429,
+      "f1": 0.0,
+      "auc": 0.6596424010217113
+    },
+    "Ni": {
+      "skipped": false,
+      "n_train": 567,
+      "n_holdout": 41,
+      "n_holdout_hopping_like": 23,
+      "n_holdout_band_like": 18,
+      "accuracy": 0.5853658536585366,
+      "f1": 0.45161290322580644,
+      "auc": 0.8381642512077295
+    },
+    "Mg": {
+      "skipped": false,
+      "n_train": 558,
+      "n_holdout": 50,
+      "n_holdout_hopping_like": 17,
+      "n_holdout_band_like": 33,
+      "accuracy": 0.68,
+      "f1": 0.1111111111111111,
+      "auc": 0.7370766488413547
+    }
+  },
+  "mean_auc_across_valid_elements": 0.7565779361312245,
+  "mean_accuracy_across_valid_elements": 0.6036257313786076,
+  "n_valid_elements": 5,
+  "interpretation": "If AUC remains well above chance (0.5) on elements/families held out entirely from training, the classifier is not simply memorizing which chemical families were labeled hopping_like during training."
+}

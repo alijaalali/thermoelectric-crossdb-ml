@@ -1,0 +1,86 @@
+{
+  "n_candidate_pool": 18187,
+  "n_novel_after_known_family_exclusion": 18168,
+  "top20_candidates": [
+    {
+      "formula": "FeCuS2",
+      "hopping_proba": 0.9975
+    },
+    {
+      "formula": "CrGeTe3",
+      "hopping_proba": 0.9925
+    },
+    {
+      "formula": "Li4FeCo3O8",
+      "hopping_proba": 0.99
+    },
+    {
+      "formula": "Li3Co2NiO6",
+      "hopping_proba": 0.985
+    },
+    {
+      "formula": "Li3Fe2CoO6",
+      "hopping_proba": 0.9825
+    },
+    {
+      "formula": "Li7Co5O12",
+      "hopping_proba": 0.9825
+    },
+    {
+      "formula": "Li4MnCo3O8",
+      "hopping_proba": 0.98
+    },
+    {
+      "formula": "Li2FeNiO4",
+      "hopping_proba": 0.98
+    },
+    {
+      "formula": "Li5Fe3Ni2O10",
+      "hopping_proba": 0.98
+    },
+    {
+      "formula": "Li3MnCo2O6",
+      "hopping_proba": 0.98
+    },
+    {
+      "formula": "Li5Mn2Co3O10",
+      "hopping_proba": 0.9775
+    },
+    {
+      "formula": "Li4Fe3CoO8",
+      "hopping_proba": 0.9775
+    },
+    {
+      "formula": "Tb2BaNiO5",
+      "hopping_proba": 0.97
+    },
+    {
+      "formula": "Li2CoNiO4",
+      "hopping_proba": 0.968125
+    },
+    {
+      "formula": "Li3FeCo3O8",
+      "hopping_proba": 0.9675
+    },
+    {
+      "formula": "Li3Co4CuO8",
+      "hopping_proba": 0.9675
+    },
+    {
+      "formula": "LiFeO2",
+      "hopping_proba": 0.9675
+    },
+    {
+      "formula": "Li2MnCoO4",
+      "hopping_proba": 0.9675
+    },
+    {
+      "formula": "Li3MnCo3O8",
+      "hopping_proba": 0.965
+    },
+    {
+      "formula": "BaDyFe2O5",
+      "hopping_proba": 0.965
+    }
+  ]
+}

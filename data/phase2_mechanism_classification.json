@@ -1,0 +1,96 @@
+{
+  "n_formulas_used": 608,
+  "n_hopping_like": 150,
+  "n_band_like": 458,
+  "cv_metrics": {
+    "LogisticRegression": {
+      "accuracy_mean": 0.6562796369055682,
+      "accuracy_std": 0.061038736449730575,
+      "f1_mean": 0.46441957313899007,
+      "f1_std": 0.10803082387997015,
+      "auc_mean": 0.7309278794804497,
+      "auc_std": 0.06362078565219643,
+      "n_folds": 5
+    },
+    "RandomForestClassifier": {
+      "accuracy_mean": 0.7976290475545319,
+      "accuracy_std": 0.04937598964086156,
+      "f1_mean": 0.6232554690396737,
+      "f1_std": 0.10128624603726012,
+      "auc_mean": 0.8411291790134332,
+      "auc_std": 0.0342355237920398,
+      "n_folds": 5
+    },
+    "XGBoostClassifier": {
+      "accuracy_mean": 0.8256198347107437,
+      "accuracy_std": 0.05838409264732345,
+      "f1_mean": 0.637030765694681,
+      "f1_std": 0.12527306099254581,
+      "auc_mean": 0.8151687950548556,
+      "auc_std": 0.053917481363382314,
+      "n_folds": 5
+    }
+  },
+  "top15_shap_features_full_model": [
+    {
+      "feature": "MagpieData mean Row",
+      "mean_abs_shap": 0.6314243078231812
+    },
+    {
+      "feature": "MagpieData range MendeleevNumber",
+      "mean_abs_shap": 0.5312907099723816
+    },
+    {
+      "feature": "MagpieData avg_dev SpaceGroupNumber",
+      "mean_abs_shap": 0.5030518174171448
+    },
+    {
+      "feature": "MagpieData avg_dev Column",
+      "mean_abs_shap": 0.42830878496170044
+    },
+    {
+      "feature": "MagpieData mean GSmagmom",
+      "mean_abs_shap": 0.3306383192539215
+    },
+    {
+      "feature": "MagpieData avg_dev Row",
+      "mean_abs_shap": 0.2848905622959137
+    },
+    {
+      "feature": "MagpieData mode Electronegativity",
+      "mean_abs_shap": 0.25428956747055054
+    },
+    {
+      "feature": "MagpieData range Number",
+      "mean_abs_shap": 0.2503446638584137
+    },
+    {
+      "feature": "MagpieData mean SpaceGroupNumber",
+      "mean_abs_shap": 0.22353172302246094
+    },
+    {
+      "feature": "MagpieData maximum CovalentRadius",
+      "mean_abs_shap": 0.21001088619232178
+    },
+    {
+      "feature": "MagpieData avg_dev NpUnfilled",
+      "mean_abs_shap": 0.20027144253253937
+    },
+    {
+      "feature": "MagpieData mean Number",
+      "mean_abs_shap": 0.18457740545272827
+    },
+    {
+      "feature": "MagpieData range MeltingT",
+      "mean_abs_shap": 0.18417003750801086
+    },
+    {
+      "feature": "MagpieData mean Electronegativity",
+      "mean_abs_shap": 0.1834140121936798
+    },
+    {
+      "feature": "MagpieData mean NUnfilled",
+      "mean_abs_shap": 0.18285112082958221
+    }
+  ]
+}

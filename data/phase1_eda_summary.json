@@ -1,0 +1,11 @@
+{
+  "estm_rows": 5205,
+  "estm_unique_formulas": 880,
+  "estm_dup_rows": 0,
+  "jarvis_rows": 23218,
+  "jarvis_unique_formulas": 18220,
+  "exact_formula_overlap": 33,
+  "element_set_overlap": 78,
+  "mn_co_rows": 770,
+  "bite_pbte_rows": 507
+}

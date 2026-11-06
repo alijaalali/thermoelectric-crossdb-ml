@@ -1,0 +1,33 @@
+{
+  "jarvis": {
+    "n_rows": 23218,
+    "n_unique_jid": 23218,
+    "jid_duplicates": 0,
+    "exact_full_row_duplicates_excl_atoms": 0,
+    "n_unique_formula": 18220,
+    "max_rows_sharing_one_formula": 61
+  },
+  "estm": {
+    "n_rows": 5205,
+    "exact_full_row_duplicates": 0,
+    "formula_temperature_duplicate_rows": 88,
+    "formula_temperature_duplicate_groups_same_reference": 14,
+    "formula_temperature_duplicate_groups_different_reference": 35,
+    "interpretation": "formula+T duplicates with the same reference are likely accidental re-entries in the ESTM curation; duplicates with different references are independent literature re-measurements of the same compound/T and are legitimate."
+  },
+  "estm_arithmetic_check": {
+    "formula": "PF_computed = Seebeck[V/K]^2 * sigma[S/m]  (expected units W/(m K^2))",
+    "median_relative_error": 1.3424096534905457e-16,
+    "fraction_within_1pct": 0.9646493756003842,
+    "fraction_within_5pct": 0.9800192122958693,
+    "n_above_10pct_error": 71,
+    "max_relative_error": 12.016098942233384
+  },
+  "jarvis_arithmetic_check": {
+    "formula": "n-powerfact[muW/(m K^2)] vs (n-Seebeck[V/K])^2 * ncond[S/m] converted W/(m K^2) -> muW/(m K^2) (x1e6; unit empirically determined from the reported/computed ratio, median~1.0e6 across 23,204 compounds)",
+    "n_checked": 23207,
+    "median_relative_error": 0.030220924667838052,
+    "fraction_within_5pct": 0.5533244279743181,
+    "fraction_within_20pct": 0.7087085793079674
+  }
+}

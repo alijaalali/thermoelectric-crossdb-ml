@@ -1,0 +1,152 @@
+[
+  {
+    "min_points": 3,
+    "rho_thresh": 0.5,
+    "label_counts": {
+      "band_like": 472,
+      "ambiguous_no_significant_trend": 190,
+      "hopping_like": 161,
+      "excluded_insufficient_data": 57
+    },
+    "hopping_validation_agree": 5,
+    "hopping_validation_opposite": 5,
+    "hopping_validation_rate": 0.5,
+    "band_validation_agree": 87,
+    "band_validation_opposite": 10,
+    "band_validation_rate": 0.8969072164948454
+  },
+  {
+    "min_points": 3,
+    "rho_thresh": 0.6,
+    "label_counts": {
+      "band_like": 470,
+      "ambiguous_no_significant_trend": 190,
+      "hopping_like": 160,
+      "excluded_insufficient_data": 57,
+      "ambiguous_mixed_signal": 3
+    },
+    "hopping_validation_agree": 5,
+    "hopping_validation_opposite": 5,
+    "hopping_validation_rate": 0.5,
+    "band_validation_agree": 87,
+    "band_validation_opposite": 10,
+    "band_validation_rate": 0.8969072164948454
+  },
+  {
+    "min_points": 3,
+    "rho_thresh": 0.7,
+    "label_counts": {
+      "band_like": 469,
+      "ambiguous_no_significant_trend": 190,
+      "hopping_like": 157,
+      "excluded_insufficient_data": 57,
+      "ambiguous_mixed_signal": 7
+    },
+    "hopping_validation_agree": 5,
+    "hopping_validation_opposite": 5,
+    "hopping_validation_rate": 0.5,
+    "band_validation_agree": 87,
+    "band_validation_opposite": 10,
+    "band_validation_rate": 0.8969072164948454
+  },
+  {
+    "min_points": 4,
+    "rho_thresh": 0.5,
+    "label_counts": {
+      "band_like": 460,
+      "ambiguous_no_significant_trend": 186,
+      "hopping_like": 151,
+      "excluded_insufficient_data": 83
+    },
+    "hopping_validation_agree": 5,
+    "hopping_validation_opposite": 5,
+    "hopping_validation_rate": 0.5,
+    "band_validation_agree": 86,
+    "band_validation_opposite": 8,
+    "band_validation_rate": 0.9148936170212766
+  },
+  {
+    "min_points": 4,
+    "rho_thresh": 0.6,
+    "label_counts": {
+      "band_like": 458,
+      "ambiguous_no_significant_trend": 186,
+      "hopping_like": 150,
+      "excluded_insufficient_data": 83,
+      "ambiguous_mixed_signal": 3
+    },
+    "hopping_validation_agree": 5,
+    "hopping_validation_opposite": 5,
+    "hopping_validation_rate": 0.5,
+    "band_validation_agree": 86,
+    "band_validation_opposite": 8,
+    "band_validation_rate": 0.9148936170212766
+  },
+  {
+    "min_points": 4,
+    "rho_thresh": 0.7,
+    "label_counts": {
+      "band_like": 457,
+      "ambiguous_no_significant_trend": 186,
+      "hopping_like": 147,
+      "excluded_insufficient_data": 83,
+      "ambiguous_mixed_signal": 7
+    },
+    "hopping_validation_agree": 5,
+    "hopping_validation_opposite": 5,
+    "hopping_validation_rate": 0.5,
+    "band_validation_agree": 86,
+    "band_validation_opposite": 8,
+    "band_validation_rate": 0.9148936170212766
+  },
+  {
+    "min_points": 5,
+    "rho_thresh": 0.5,
+    "label_counts": {
+      "band_like": 402,
+      "excluded_insufficient_data": 189,
+      "ambiguous_no_significant_trend": 163,
+      "hopping_like": 126
+    },
+    "hopping_validation_agree": 5,
+    "hopping_validation_opposite": 3,
+    "hopping_validation_rate": 0.625,
+    "band_validation_agree": 74,
+    "band_validation_opposite": 4,
+    "band_validation_rate": 0.9487179487179487
+  },
+  {
+    "min_points": 5,
+    "rho_thresh": 0.6,
+    "label_counts": {
+      "band_like": 400,
+      "excluded_insufficient_data": 189,
+      "ambiguous_no_significant_trend": 163,
+      "hopping_like": 125,
+      "ambiguous_mixed_signal": 3
+    },
+    "hopping_validation_agree": 5,
+    "hopping_validation_opposite": 3,
+    "hopping_validation_rate": 0.625,
+    "band_validation_agree": 74,
+    "band_validation_opposite": 4,
+    "band_validation_rate": 0.9487179487179487
+  },
+  {
+    "min_points": 5,
+    "rho_thresh": 0.7,
+    "label_counts": {
+      "band_like": 399,
+      "excluded_insufficient_data": 189,
+      "ambiguous_no_significant_trend": 163,
+      "hopping_like": 122,
+      "ambiguous_mixed_signal": 7
+    },
+    "hopping_validation_agree": 5,
+    "hopping_validation_opposite": 3,
+    "hopping_validation_rate": 0.625,
+    "band_validation_agree": 74,
+    "band_validation_opposite": 4,
+    "band_validation_rate": 0.9487179487179487
+  }
+]

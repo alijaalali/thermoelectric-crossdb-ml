@@ -1,0 +1,57 @@
+{
+  "target_shift": {
+    "Seebeck_uVK": {
+      "jarvis_mean": 23.551486562149943,
+      "jarvis_std": 199.29938329241645,
+      "jarvis_median": 0.16499999999999998,
+      "estm_mean": 51.344843181818185,
+      "estm_std": 197.78530232235053,
+      "estm_median": 58.64,
+      "ks_statistic": 0.3570067110940572,
+      "ks_pvalue": 4.5646831677873096e-99
+    },
+    "log10_cond": {
+      "jarvis_mean": 5.283486629512549,
+      "jarvis_std": 1.202580757641749,
+      "jarvis_median": 5.30167513055,
+      "estm_mean": 4.295598875038636,
+      "estm_std": 1.2280065032311644,
+      "estm_median": 4.5943749219,
+      "ks_statistic": 0.41142520693192575,
+      "ks_pvalue": 8.158186141558682e-133
+    }
+  },
+  "feature_shift": {
+    "n_features": 132,
+    "mean_abs_standardized_mean_shift": 0.34003255819885686,
+    "top10_shifted_features": [
+      "MagpieData mean NdValence",
+      "MagpieData minimum NdValence",
+      "MagpieData mode NdValence",
+      "MagpieData mean NValence",
+      "MagpieData avg_dev CovalentRadius",
+      "MagpieData mode NValence",
+      "MagpieData avg_dev Electronegativity",
+      "MagpieData maximum NdValence",
+      "MagpieData minimum Column",
+      "MagpieData range CovalentRadius"
+    ],
+    "top10_shift_values": [
+      1.49441721673111,
+      1.3240366214660548,
+      1.2073502023357416,
+      0.9874404386580065,
+      0.9300473826320429,
+      0.8073761251465121,
+      0.7522379058361591,
+      0.7326172790048391,
+      0.725686109968387,
+      0.7069365250060399
+    ],
+    "estm_to_jarvis_nn_distance_median": 2.954857198602098,
+    "estm_to_jarvis_nn_distance_mean": 3.0307470332751536,
+    "jarvis_internal_nn_distance_median_baseline": 1.6858739404357614e-07,
+    "jarvis_internal_nn_distance_mean_baseline": 1.3834744317193904e-07,
+    "ratio_estm_to_jarvis_vs_internal_baseline": 17527153.885766406
+  }
+}

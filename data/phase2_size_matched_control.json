@@ -1,0 +1,22 @@
+{
+  "n_hopping_like": 150,
+  "n_band_like": 458,
+  "full_imbalanced_result": {
+    "accuracy": 0.7976290475545319,
+    "f1": 0.6232554690396737,
+    "auc": 0.8411291790134332
+  },
+  "size_matched_n_repeats": 20,
+  "size_matched_accuracy_median": 0.7366666666666667,
+  "size_matched_accuracy_5_95pct": [
+    0.68,
+    0.7703333333333333
+  ],
+  "size_matched_f1_median": 0.7265005086973975,
+  "size_matched_auc_median": 0.7928254724539745,
+  "size_matched_auc_5_95pct": [
+    0.7526528324450213,
+    0.8408840256687268
+  ],
+  "interpretation": "If size-matched AUC/accuracy remain well above chance (0.5), the classifier's separation of hopping_like vs band_like compounds is not an artifact of class-size imbalance."
+}

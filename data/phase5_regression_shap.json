@@ -1,0 +1,201 @@
+{
+  "n_rows": 46436,
+  "model": "LightGBM(n_estimators=300, max_depth=-1, learning_rate=0.08), trained on full JARVIS table for interpretability only",
+  "targets": {
+    "Seebeck_uVK": {
+      "label": "Seebeck coefficient",
+      "top15_shap_features": [
+        {
+          "feature": "doping_n",
+          "mean_abs_shap": 116.24609522800752
+        },
+        {
+          "feature": "MagpieData maximum MendeleevNumber",
+          "mean_abs_shap": 12.359204900049154
+        },
+        {
+          "feature": "MagpieData avg_dev NdUnfilled",
+          "mean_abs_shap": 7.989657817961305
+        },
+        {
+          "feature": "MagpieData maximum Electronegativity",
+          "mean_abs_shap": 7.706849936537371
+        },
+        {
+          "feature": "MagpieData mean NpValence",
+          "mean_abs_shap": 7.236440536994137
+        },
+        {
+          "feature": "MagpieData mean MeltingT",
+          "mean_abs_shap": 6.608630113261593
+        },
+        {
+          "feature": "MagpieData mean NdValence",
+          "mean_abs_shap": 5.892173089829051
+        },
+        {
+          "feature": "MagpieData mean GSmagmom",
+          "mean_abs_shap": 3.501262004962525
+        },
+        {
+          "feature": "MagpieData maximum NdUnfilled",
+          "mean_abs_shap": 3.1966753490088813
+        },
+        {
+          "feature": "MagpieData mean NdUnfilled",
+          "mean_abs_shap": 2.5000686711605944
+        },
+        {
+          "feature": "MagpieData range Column",
+          "mean_abs_shap": 2.4283020756068074
+        },
+        {
+          "feature": "MagpieData mean NUnfilled",
+          "mean_abs_shap": 2.226375185875285
+        },
+        {
+          "feature": "MagpieData maximum MeltingT",
+          "mean_abs_shap": 2.186372623511333
+        },
+        {
+          "feature": "MagpieData mean Column",
+          "mean_abs_shap": 2.1375790654509585
+        },
+        {
+          "feature": "MagpieData avg_dev NpValence",
+          "mean_abs_shap": 2.089309950934406
+        }
+      ]
+    },
+    "log10_cond": {
+      "label": "log10(electrical conductivity)",
+      "top15_shap_features": [
+        {
+          "feature": "MagpieData maximum MendeleevNumber",
+          "mean_abs_shap": 0.36262316587877025
+        },
+        {
+          "feature": "MagpieData mean NpValence",
+          "mean_abs_shap": 0.12743982956687447
+        },
+        {
+          "feature": "MagpieData mean MeltingT",
+          "mean_abs_shap": 0.12063270504403646
+        },
+        {
+          "feature": "MagpieData maximum Electronegativity",
+          "mean_abs_shap": 0.09931520505061643
+        },
+        {
+          "feature": "MagpieData mean NdValence",
+          "mean_abs_shap": 0.08572132205174561
+        },
+        {
+          "feature": "doping_n",
+          "mean_abs_shap": 0.07698062397173693
+        },
+        {
+          "feature": "MagpieData range Column",
+          "mean_abs_shap": 0.038305222535269266
+        },
+        {
+          "feature": "MagpieData mean NdUnfilled",
+          "mean_abs_shap": 0.03727695203443276
+        },
+        {
+          "feature": "MagpieData mode MendeleevNumber",
+          "mean_abs_shap": 0.033339124391529244
+        },
+        {
+          "feature": "MagpieData maximum NdUnfilled",
+          "mean_abs_shap": 0.031218128279051148
+        },
+        {
+          "feature": "MagpieData avg_dev NdValence",
+          "mean_abs_shap": 0.02951176218871848
+        },
+        {
+          "feature": "MagpieData mean Row",
+          "mean_abs_shap": 0.029300287120807463
+        },
+        {
+          "feature": "MagpieData avg_dev NpValence",
+          "mean_abs_shap": 0.027797759664313273
+        },
+        {
+          "feature": "MagpieData range NdValence",
+          "mean_abs_shap": 0.02637709571617144
+        },
+        {
+          "feature": "MagpieData avg_dev Row",
+          "mean_abs_shap": 0.025153756918422813
+        }
+      ]
+    },
+    "powerfact": {
+      "label": "power factor",
+      "top15_shap_features": [
+        {
+          "feature": "MagpieData maximum MendeleevNumber",
+          "mean_abs_shap": 68.6243076696345
+        },
+        {
+          "feature": "MagpieData mean MeltingT",
+          "mean_abs_shap": 41.652551711971455
+        },
+        {
+          "feature": "MagpieData maximum NdUnfilled",
+          "mean_abs_shap": 37.41586021232065
+        },
+        {
+          "feature": "MagpieData mean GSmagmom",
+          "mean_abs_shap": 34.48246550693899
+        },
+        {
+          "feature": "MagpieData maximum GSmagmom",
+          "mean_abs_shap": 29.864783380429284
+        },
+        {
+          "feature": "MagpieData mean Electronegativity",
+          "mean_abs_shap": 27.967761827909502
+        },
+        {
+          "feature": "MagpieData avg_dev NValence",
+          "mean_abs_shap": 27.27461409855724
+        },
+        {
+          "feature": "MagpieData maximum MeltingT",
+          "mean_abs_shap": 27.051760937398207
+        },
+        {
+          "feature": "MagpieData avg_dev NpUnfilled",
+          "mean_abs_shap": 24.670286260770116
+        },
+        {
+          "feature": "MagpieData mean Column",
+          "mean_abs_shap": 24.23920725670641
+        },
+        {
+          "feature": "MagpieData mode Electronegativity",
+          "mean_abs_shap": 22.69004397526822
+        },
+        {
+          "feature": "MagpieData mean NUnfilled",
+          "mean_abs_shap": 21.634452612393613
+        },
+        {
+          "feature": "MagpieData range Electronegativity",
+          "mean_abs_shap": 20.570667691020375
+        },
+        {
+          "feature": "MagpieData avg_dev GSvolume_pa",
+          "mean_abs_shap": 20.46187280387669
+        },
+        {
+          "feature": "MagpieData mean NpUnfilled",
+          "mean_abs_shap": 20.421343623323157
+        }
+      ]
+    }
+  }
+}

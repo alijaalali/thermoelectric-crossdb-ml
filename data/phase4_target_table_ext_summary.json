@@ -1,0 +1,36 @@
+{
+  "jarvis_rows": 46436,
+  "jarvis_unique_formulas": 18220,
+  "jarvis_rows_with_positive_kappa_elec": 46435,
+  "jarvis_rows_with_finite_zt_elec_proxy": 46402,
+  "estm_rows": 880,
+  "estm_unique_formulas": 880,
+  "estm_rows_with_kappa_total": 880,
+  "estm_rows_with_zt_reported": 880,
+  "power_factor_unit_check": {
+    "jarvis_powerfact_median_native_units": 577.145,
+    "estm_PF_median_native_W_m_K2": 0.00042448300672955,
+    "estm_PF_median_harmonized_muW_m_K2": 424.48300672954997,
+    "note": "JARVIS n/p-powerfact already in muW/(m K^2) (see 07_duplicate_and_arithmetic_audit.py); ESTM's power_factor(W/mK2) column multiplied by 1e6 to match. After harmonization both medians are the same order of magnitude (JARVIS ~578-870, ESTM ~420), consistent with the conversion direction used."
+  },
+  "zt_arithmetic_consistency_check": {
+    "n_checked": 880,
+    "n_total_estm_rows_with_zt": 880,
+    "median_rel_err": 1.5483522589712293e-16,
+    "within_1pct": 0.8806818181818182,
+    "within_10pct": 0.9681818181818181,
+    "within_20pct": 0.9840909090909091,
+    "n_exceeding_50pct": 6,
+    "note": "Note: this check uses the same representative 300K-closest row selected for modeling, not every (Formula,T) measurement in the raw file, so n_checked reflects the 880-formula representative set, not all 5205 raw rows."
+  },
+  "zt_elec_proxy_wiedemann_franz_check": {
+    "description": "Wiedemann-Franz consistency check: sigma/kappa_elec should equal 1/(L0*T) regardless of any shared relaxation-time normalization, if ncond and nkappa are expressed in mutually consistent units.",
+    "L0_WmOhmK2": 2.44e-08,
+    "T_K": 300.0,
+    "expected_sigma_over_kappa": 136612.02185792348,
+    "observed_median_ncond_over_nkappa": 5.73752791888806e-10,
+    "discrepancy_factor": 238102583184290.75,
+    "conclusion": "ncond and nkappa are not in mutually consistent units/normalization (discrepancy ~2.4e14, i.e. ~14 orders of magnitude) -- an electronic-ZT proxy (S^2 sigma T / kappa_elec) computed naively from these two fields is NOT a numerically meaningful ZT value. We therefore do not report an electronic-ZT proxy anywhere in this paper. JARVIS log10(kappa_elec) itself remains a legitimate, internally-consistent ML regression target in its own BoltzTraP-native units, exactly as log10(conductivity) already is throughout Sections 4.1-4.4, since no cross-field ratio is required."
+  },
+  "zt_elec_proxy_status": "DROPPED -- see zt_elec_proxy_wiedemann_franz_check"
+}

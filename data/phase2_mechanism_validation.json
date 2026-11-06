@@ -1,0 +1,679 @@
+{
+  "hopping_side": {
+    "expected": "hopping_like",
+    "n_formulas": 28,
+    "n_agree": 5,
+    "n_disagree_opposite_label": 5,
+    "n_ambiguous_or_excluded": 18,
+    "agreement_rate_among_labeled": 0.5,
+    "detail": [
+      {
+        "formula": "Ca3Co2O6",
+        "derived_label": "hopping_like"
+      },
+      {
+        "formula": "Ca3Co3.7Ti0.3O9",
+        "derived_label": "hopping_like"
+      },
+      {
+        "formula": "Ca3Co3.8Ti0.2O9",
+        "derived_label": "hopping_like"
+      },
+      {
+        "formula": "Ca3Co3.9Ti0.1O9",
+        "derived_label": "hopping_like"
+      },
+      {
+        "formula": "Ca3Co4O9",
+        "derived_label": "hopping_like"
+      },
+      {
+        "formula": "CaTiO3",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "La0.15Ca0.85TiO3",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "La0.1Ca0.9TiO3",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "La0.25Ca0.75TiO3",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "La0.2Ca0.8TiO3",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "LaCo0.5(Ni0.5Fe0.5)0.5O3",
+        "derived_label": "excluded_insufficient_data"
+      },
+      {
+        "formula": "LaCo0.5Fe0.5O3",
+        "derived_label": "excluded_insufficient_data"
+      },
+      {
+        "formula": "LaCo0.75Fe0.25O3",
+        "derived_label": "excluded_insufficient_data"
+      },
+      {
+        "formula": "LaCo0.75Ni0.25O3",
+        "derived_label": "excluded_insufficient_data"
+      },
+      {
+        "formula": "LaCo0.8(Ni0.5Fe0.5)0.2O3",
+        "derived_label": "excluded_insufficient_data"
+      },
+      {
+        "formula": "LaCo0.9(Ni0.5Fe0.5)0.1O3",
+        "derived_label": "excluded_insufficient_data"
+      },
+      {
+        "formula": "LaCo0.95Fe0.05O3",
+        "derived_label": "excluded_insufficient_data"
+      },
+      {
+        "formula": "LaCo0.95Ni0.05O3",
+        "derived_label": "excluded_insufficient_data"
+      },
+      {
+        "formula": "LaCo0.9Fe0.1O3",
+        "derived_label": "excluded_insufficient_data"
+      },
+      {
+        "formula": "LaCo0.9Ni0.1O3",
+        "derived_label": "excluded_insufficient_data"
+      },
+      {
+        "formula": "LaCoO3",
+        "derived_label": "excluded_insufficient_data"
+      },
+      {
+        "formula": "Ti0.95Al0.05O2",
+        "derived_label": "excluded_insufficient_data"
+      },
+      {
+        "formula": "Ti0.96Al0.04O2",
+        "derived_label": "excluded_insufficient_data"
+      },
+      {
+        "formula": "Ti0.97Al0.03O2",
+        "derived_label": "excluded_insufficient_data"
+      },
+      {
+        "formula": "Ti0.98Al0.02O2",
+        "derived_label": "excluded_insufficient_data"
+      },
+      {
+        "formula": "Ti0.995Al0.005O2",
+        "derived_label": "excluded_insufficient_data"
+      },
+      {
+        "formula": "Ti0.99Al0.01O2",
+        "derived_label": "excluded_insufficient_data"
+      },
+      {
+        "formula": "TiO2",
+        "derived_label": "excluded_insufficient_data"
+      }
+    ]
+  },
+  "band_side": {
+    "expected": "band_like",
+    "n_formulas": 136,
+    "n_agree": 86,
+    "n_disagree_opposite_label": 8,
+    "n_ambiguous_or_excluded": 42,
+    "agreement_rate_among_labeled": 0.9148936170212766,
+    "detail": [
+      {
+        "formula": "(Bi0.23Sb0.77)2Te3",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "(Cu0.001Pb0.999Te)(MnTe)0.03",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "(Cu0.002Pb0.998Te)(MnTe)0.03",
+        "derived_label": "ambiguous_no_significant_trend"
+      },
+      {
+        "formula": "(Cu0.003Pb0.997Te)(MnTe)0.03",
+        "derived_label": "ambiguous_no_significant_trend"
+      },
+      {
+        "formula": "(Cu0.004Pb0.996Te)(MnTe)0.03",
+        "derived_label": "ambiguous_no_significant_trend"
+      },
+      {
+        "formula": "(Cu0.005Pb0.995Te)(MnTe)0.03",
+        "derived_label": "ambiguous_no_significant_trend"
+      },
+      {
+        "formula": "(CuI)0.003Bi2Te3",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "(PbTe)(MnTe)0.03",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "(PbTe)0.05(Ag2Te)0.95",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "(PbTe)0.1(Ag2Te)0.9",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "(PbTe)0.15(Ag2Te)0.85",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "Ag0.4Sb1.1Pb19.6Te18.8",
+        "derived_label": "ambiguous_no_significant_trend"
+      },
+      {
+        "formula": "Ag0.5Sb1.1Pb19.6Te18.8",
+        "derived_label": "ambiguous_no_significant_trend"
+      },
+      {
+        "formula": "Ag0.6Sb0.9Pb19.5Te19.1",
+        "derived_label": "excluded_insufficient_data"
+      },
+      {
+        "formula": "Ag0.8Sb0.8Pb18.3Te20.0",
+        "derived_label": "hopping_like"
+      },
+      {
+        "formula": "Ag0.9Sb0.9Pb18.3Te19.9",
+        "derived_label": "hopping_like"
+      },
+      {
+        "formula": "Ag1.1Sb0.8Pb15.5Te22.6",
+        "derived_label": "ambiguous_no_significant_trend"
+      },
+      {
+        "formula": "Ag1.2Sb0.8Pb14.9Te22.7",
+        "derived_label": "ambiguous_no_significant_trend"
+      },
+      {
+        "formula": "Ag1.3Sb0.9Pb15.7Te22.0",
+        "derived_label": "ambiguous_no_significant_trend"
+      },
+      {
+        "formula": "AgSn15.0BiTe17.0",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "AgSn25.0BiTe27.0",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "AgSn5.0BiTe7.0",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "Ba0.03Co4Sb12",
+        "derived_label": "ambiguous_no_significant_trend"
+      },
+      {
+        "formula": "Ba0.05Yb0.09Co4Sb12",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "Ba0.08Yb0.09Co4Sb12",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "Ba0.11Yb0.03Co4Sb12",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "Ba0.11Yb0.08Co4Sb12",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "Ba0.15Yb0.01Co4Sb12",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "Ba8.02Cu4.98Si35Ge5.99",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "Ba8.02Cu5.04Si6Ge34.93",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "Ba8.04Cu4.99Si18Ge22.98",
+        "derived_label": "ambiguous_no_significant_trend"
+      },
+      {
+        "formula": "Ba8.04Cu4.9Si3.23Ge37.83",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "Ba8Cu5.04Si13.01Ge27.96",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "Ba8Cu5.18Si9.98Ge30.85",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "Ba8Cu5Si25Ge16",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "BaBiTe2.95Se0.05",
+        "derived_label": "ambiguous_no_significant_trend"
+      },
+      {
+        "formula": "BaBiTe2.9Se0.1",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "BaBiTe3",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "Bi0.42Sb1.58Te3",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "Bi0.48Sb1.52Te3",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "Bi1.92Nb0.08Te3",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "Bi1.94Nb0.06Te3",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "Bi1.9Nb0.1Te3",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "Bi2Si2Te6",
+        "derived_label": "ambiguous_no_significant_trend"
+      },
+      {
+        "formula": "Bi2Te1.95Se1.05",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "Bi2Te2.01Se0.99",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "Bi2Te2.1Se0.9",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "Bi2Te2.55Se0.45",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "Bi2Te2.7Se0.3",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "Bi2Te3",
+        "derived_label": "ambiguous_no_significant_trend"
+      },
+      {
+        "formula": "Ce0.2Bi1.8Te3",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "Ce0.75Fe3CoSb12",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "CoAsSb",
+        "derived_label": "hopping_like"
+      },
+      {
+        "formula": "CoSb3.0",
+        "derived_label": "hopping_like"
+      },
+      {
+        "formula": "CoSi0.98Ge0.02",
+        "derived_label": "excluded_insufficient_data"
+      },
+      {
+        "formula": "Er0.01(Bi0.23Sb0.77)1.99Te3",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "Er0.02(Bi0.23Sb0.77)1.98Te3",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "Er0.03(Bi0.23Sb0.77)1.97Te3",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "Ge0.55Pb0.45Te",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "Ge0.55Pb0.45Te0.2Se0.8",
+        "derived_label": "ambiguous_no_significant_trend"
+      },
+      {
+        "formula": "Ge0.55Pb0.45Te0.3Se0.7",
+        "derived_label": "ambiguous_no_significant_trend"
+      },
+      {
+        "formula": "Ge0.55Pb0.45Te0.4Se0.6",
+        "derived_label": "ambiguous_no_significant_trend"
+      },
+      {
+        "formula": "Ge0.55Pb0.45Te0.5Se0.5",
+        "derived_label": "ambiguous_no_significant_trend"
+      },
+      {
+        "formula": "Ge0.55Pb0.45Te0.8Se0.2",
+        "derived_label": "ambiguous_no_significant_trend"
+      },
+      {
+        "formula": "Ge0.83In0.05Pb0.12Te",
+        "derived_label": "ambiguous_no_significant_trend"
+      },
+      {
+        "formula": "Ge0.85In0.05Pb0.1Te",
+        "derived_label": "ambiguous_no_significant_trend"
+      },
+      {
+        "formula": "Ge0.87In0.05Pb0.08Te",
+        "derived_label": "ambiguous_no_significant_trend"
+      },
+      {
+        "formula": "Ge0.89In0.05Pb0.06Te",
+        "derived_label": "ambiguous_no_significant_trend"
+      },
+      {
+        "formula": "Hf0.5Ti0.5CoSb0.8Sn0.2",
+        "derived_label": "ambiguous_no_significant_trend"
+      },
+      {
+        "formula": "Hf0.7Ti0.3CoSb0.8Sn0.2",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "Hf0.8Ti0.2CoSb0.8Sn0.2",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "Hf0.9Ti0.1CoSb0.8Sn0.2",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "In0.005Pb0.995Te0.994I0.006",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "In0.005Pb0.995Te0.996I0.004",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "In0.005Pb0.995Te0.998I0.002",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "In0.005Pb0.995Te0.999I0.001",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "In0.015Pb0.985Te0.994I0.006",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "In0.015Pb0.985Te0.996I0.004",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "In0.015Pb0.985Te0.998I0.002",
+        "derived_label": "ambiguous_no_significant_trend"
+      },
+      {
+        "formula": "In0.01Pb0.99Te0.994I0.006",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "In0.01Pb0.99Te0.996I0.004",
+        "derived_label": "excluded_insufficient_data"
+      },
+      {
+        "formula": "In0.01Pb0.99Te0.998I0.002",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "In0.01Pb0.99Te0.999I0.001",
+        "derived_label": "excluded_insufficient_data"
+      },
+      {
+        "formula": "La0.1Co4Sb12",
+        "derived_label": "ambiguous_no_significant_trend"
+      },
+      {
+        "formula": "La0.3Co4Sb12",
+        "derived_label": "ambiguous_no_significant_trend"
+      },
+      {
+        "formula": "La0.5Co4Sb12",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "La0.7Co4Sb12",
+        "derived_label": "hopping_like"
+      },
+      {
+        "formula": "La1.25Co4Sb12",
+        "derived_label": "excluded_insufficient_data"
+      },
+      {
+        "formula": "La2.0Co4Sb12",
+        "derived_label": "excluded_insufficient_data"
+      },
+      {
+        "formula": "LaCo4Sb12",
+        "derived_label": "excluded_insufficient_data"
+      },
+      {
+        "formula": "Mg0.95Li0.05Ge0.9Si0.1",
+        "derived_label": "ambiguous_no_significant_trend"
+      },
+      {
+        "formula": "Mg0.97Li0.03Ge0.8Si0.2",
+        "derived_label": "excluded_insufficient_data"
+      },
+      {
+        "formula": "Mg0.97Li0.03Ge0.9Si0.1",
+        "derived_label": "ambiguous_no_significant_trend"
+      },
+      {
+        "formula": "Mg0.98Li0.02Ge0.8Si0.2",
+        "derived_label": "hopping_like"
+      },
+      {
+        "formula": "Mg0.98Li0.02Ge0.9Si0.1",
+        "derived_label": "ambiguous_no_significant_trend"
+      },
+      {
+        "formula": "Mg0.99Li0.01Ge0.9Si0.1",
+        "derived_label": "hopping_like"
+      },
+      {
+        "formula": "Nb0.75Ta0.25CoSn0.9Sb0.1",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "Nb0.85Ta0.15CoSn0.9Sb0.1",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "Nb0.8Ta0.2CoSn0.9Sb0.1",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "Nb0.95Ta0.05CoSn0.9Sb0.1",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "Nb0.9Ta0.1CoSn0.9Sb0.1",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "NbCoSn0.9Sb0.1",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "Pb0.96Tl0.02Na0.02Te",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "Pb0.975Zn0.04Te",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "Pb0.97Tl0.015Na0.015Te",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "Pb0.9825Tl0.0075Na0.01Te",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "Pb0.985Zn0.03Te",
+        "derived_label": "ambiguous_no_significant_trend"
+      },
+      {
+        "formula": "Pb0.98Tl0.01Na0.01Te",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "Pb0.98Zn0.035Te",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "Pb0.995Zn0.02Te",
+        "derived_label": "ambiguous_no_significant_trend"
+      },
+      {
+        "formula": "Pb0.99Na0.01Te",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "Pb0.99Tl0.005Na0.005Te",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "Pb0.99Tl0.01Te",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "PbTe",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "PbZn0.015Te",
+        "derived_label": "ambiguous_no_significant_trend"
+      },
+      {
+        "formula": "Sm0.2Bi1.8Te3",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "Sn0.87Mn0.1Bi0.03Te",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "Sn0.91Mn0.08Bi0.01Te",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "Sr0.11Ba0.18Co4Sb12.09",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "Sr0.16Yb0.03Co4Sb11.82",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "Sr0.21Co4Sb12.25",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "Sr0.21Yb0.03Co4Sb12.12",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "Tl0.1Co4Sb12",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "Tl0.22Co4Sb12",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "Tl0.7Co4Sn0.75Sb11.25",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "Tl0.8Co4SnSb11",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "Tl4PbTe3",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "Tl8.95Bi1.05Te6.0",
+        "derived_label": "hopping_like"
+      },
+      {
+        "formula": "Tl8.99Bi1.01Te6.0",
+        "derived_label": "excluded_insufficient_data"
+      },
+      {
+        "formula": "Tl9.0Bi0.95Te6.0",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "Tl9.0Bi0.96Te6.0",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "Tl9.0Bi0.97Te6.0",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "Tl9.0Bi0.98Te6.0",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "Tl9.0Bi0.99Te6.0",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "Tl9.0BiTe6.0",
+        "derived_label": "band_like"
+      },
+      {
+        "formula": "Y0.2Bi1.8Te3",
+        "derived_label": "band_like"
+      }
+    ]
+  },
+  "note": "overlap formulas appearing in both element-set families were excluded from this check (0 formulas): []"
+}
